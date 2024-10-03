@@ -82,7 +82,7 @@ class DataTransformation:
             preprocessor_obj = self.get_data_transformation_object()
 
 
-            target_columns_name = "PRICE"
+            target_columns_name = "Price"
             drop_columns = [target_columns_name]
 
             ## spliting dependent and indipend veriable
