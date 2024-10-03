@@ -37,16 +37,16 @@
             <h1>Welcome to Indian House Price Predictor </h1>
             <h3>Your dream home is just on a click</h3>
             <div class="form-group">
-                <label for="Location">Location:</label>
-                <select id="Location" name="Location" required="1">
-                    {% for i in Location %}
-                        <option value="{{ i }}">{{ i }}</option>
+                <label for="Postal Code">Postal <Code></Code>:</label>
+                <select id="Postal Code" name="Postal Code" required="1">
+                    {% for i in Postal Code %}
+                        <option value="{{ i }}">Pin Code</option>
                     {% endfor %}
                 </select>
             </div>
             <div class="form-group">
-                <label for="Area">Area:</label>
-                <input type="text" id="Area" name="Area" placeholder="Enter value (float)">
+                <label for="Built Year">Area:</label>
+                <input type="text" id="Built Year" name="Built Year" placeholder="Built Year">
             </div>
 
             <div class="form-group">
@@ -61,104 +61,20 @@
                     <option value="7.0">Seven BHK</option>
                 </select>
             </div>
+
             <div class="form-group">
-                <label for="New_Resale">New Resale:</label>
-                <select id="New_Resale" name="New_Resale">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
+                <label for="number of bathrooms">number of bathrooms:</label>
+                <select id="number of bathrooms" name="number of bathrooms">
+                    <option value="1.0">One</option>
+                    <option value="2.0">Two</option>
+                    <option value="3.0">Three</option>
+                    <option value="4.0">Four</option>
+                    <option value="5.0">Five</option>
+                    <option value="6.0">Six </option>
+                    <option value="7.0">Seven</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label for="Gymnasium">Gymnasium:</label>
-                <select id="Gymnasium" name="Gymnasium">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Lift_Available">Lift Available:</label>
-                <select id="Lift_Available" name="Lift_Available">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Car_Parking">Car Parking:</label>
-                <select id="Car_Parking" name="Car_Parking">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Maintenance_Staff">Maintenance Staff:</label>
-                <select id="Maintenance_Staff" name="Maintenance_Staff">
-                    <option value="0.0">No</option>
-                    <option value="1.0">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="_24x7_Security"> 24x7 Security:</label>
-                <select id="_24x7_Security" name="_24x7_Security">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Childrens_Play_Area">Childrens Play Area:</label>
-                <select id="Childrens_Play_Area" name="Childrens_Play_Area">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Clubhouse">Clubhouse:</label>
-                <select id="Clubhouse" name="Clubhouse">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Intercom">Intercom:</label>
-                <select id="Intercom" name="Intercom">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Landscaped_Gardens">Landscaped Gardens:</label>
-                <select id="Landscaped_Gardens" name="Landscaped_Gardens">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Indoor_Games">Indoor Games:</label>
-                <select id="Indoor_Games" name="Indoor_Games">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Gas_Connection">Gas Connection:</label>
-                <select id="Gas_Connection" name="Gas_Connection">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Jogging_Track">Jogging Track:</label>
-                <select id="Jogging_Track" name="Jogging_Track">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="Swimming_Pool">Swimming Pool:</label>
-                <select id="Swimming_Pool" name="Swimming_Pool">
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
+           
 
 <!-- Submit -->
 <input type="submit" value="Predict" class="btn btn-secondary">
@@ -170,7 +86,7 @@
 
 <br>
 <br>
-<p>Yash Mohite</p>
+<p>Vikash Pramanik</p>
 
 
     <!-- JavaScript -->
